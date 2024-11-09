@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: INGAME
+    uniqueID: 185810997
+    locked: 0
   - name: UILow
     uniqueID: 5845095
     locked: 0
