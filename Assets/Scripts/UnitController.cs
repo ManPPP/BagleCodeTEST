@@ -7,7 +7,7 @@ public class UnitController : MonoBehaviour
     public Animator anim;
     public void ToggleTaunt()
 {
-    bool state = anim.GetBool("isTaunt");
-    anim.SetBool("isTaunt", !state);
+    int state = anim.GetInteger("State");
+    anim.SetInteger("State", state==0 ? 1 : 0);
 }
 }
